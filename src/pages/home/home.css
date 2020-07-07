@@ -1,14 +1,13 @@
 .HomePage {
     background-color: #F5E8D3;
-    height: 100%;
-    width: 100%;
     position: relative;
+    width: 100%;
   }
 .triangulo {
     position: absolute;
     left: 1050px;
     height: 600px;
-    width: 300px;
+    width: 295px;
     top: -90px;
 }
 
@@ -30,18 +29,22 @@
 
 .logo > span {
   font-size: 20px;
+  font-family: Roboto;
   background-color: #A9021E;
   color: white;
   border-radius: 6px;
   padding: 0px 5px 0px 5px;
+  font-weight: 400;
 
 }
 .carousel {
   position: absolute;
   bottom: 800px;
   height: 507px;
-  width: 1400px;
+  width: 100%;
   top: -600px;
+  align-items: center;
+  box-shadow: black 0.5px 0.5px 0.5px 0.2px;
 }
 .image {
   height: 507px;
@@ -62,9 +65,12 @@
   height: 7px;
   width: 100%;
   background-color: #6E2C2C;
+  box-shadow: 0px 4px 25px rgba(0,0,0,0.55);
 }
 .titulo > span {
-  font-size: 25px;
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: 300;
 }
 .cards {
   display: flex;
@@ -88,9 +94,17 @@
   height: 7px;
   width: 100%;
   background-color: #6E2C2C;
+  box-shadow: 0px 4px 25px rgba(0,0,0,0.55);
 }
 .titulo2 > span {
-  font-size: 40px;
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.titulo2 > p {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
 }
 .inform {
   display: flex;
@@ -98,7 +112,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   position: absolute;
-  top: 700px;
+  top: 500px;
   background-color: #6E2C2C;
   padding: 30px;
 }
@@ -106,4 +120,68 @@
   background-color: #6E2C2C;
   position: absolute;
   width: 100%;
+}
+@media screen and (max-device-width: 450px) and (orientation: portrait){ /*Celular*/
+    .HomePage {
+      width: 414px;
+      height: 3350px;
+    }
+    .logo {
+      align-items: center;
+      left: 5px;
+    }
+    .logo > img {
+      width: 150px;
+      height: 200px;
+    }
+    .logo > span {
+      font-size: 20px;
+    }
+    .titulo {
+      width: 414px;
+      align-items: center;
+      left: 0px;
+    }
+    .titulo > span {
+      font-size: 20px;
+    }
+    .titulo > div {
+      width: 350px;
+      height: 5px;
+    }
+    .triangulo {
+      left: 242px;
+      width: 170px;
+    }
+    .carousel {
+      width: 416px;
+      height: 476px;
+    }
+    .titulo2 {
+      width: 350px;
+      align-items: center;
+      left: 40px;
+    }
+    .titulo2 > span {
+      font-size: 25px;
+    }
+    .cards {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+    }
+    .rodape {
+      width: 414px;
+      position: absolute;
+      top:2550px;
+    }
+    
+}
+@media screen and (min-width: 501px) and (max-width: 800px){ /* Tabletes*/
+    .HomePage {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: #A9021E;
+    }
 }

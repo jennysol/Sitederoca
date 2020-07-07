@@ -19,7 +19,7 @@ import Info from "../../components/modal/info";
 import instagram from "../../Assets/instagram.png";
 //import facebook from "../../Assets/facebook.png";
 //import whatsapp from "../../Assets/whatsapp.png";
-import teste from "../../Assets/teste.jpg";
+
 function Home() {
     return (
       <div className="HomePage">
@@ -83,14 +83,14 @@ function Home() {
             <div className="titulo2">
               <div/>
               <span>Nossos Produtos</span>
-              <p>Qualidade que só a Roça pode oferecer!</p>
+              <p>QUALIDADE QUE SÓ A ROÇA PODE OFERECER!</p>
               <div/>
               </div>
               
             <div className="cards">
               <Modal foto={galinha} nome={"Galinha Caipira"} preco={"R$55,00"}/>
-              <Modal foto={ovos} nome={"Ovos Caipira"} preco={"R$13,00 dúzia"}/>
-              <Modal foto={sarapatel} nome={"Igredientes de Sarapatel"} preco={"R$12,00 KG"}/>
+              <Modal foto={ovos} nome={"Ovos Caipira"} preco={"R$13,00 Dúzia"}/>
+              <Modal foto={sarapatel} nome={"Ingredientes de Sarapatel"} preco={"R$12,00 Kg"}/>
               <Modal foto={leitin} nome={"Leite Puro"} preco={"R$4,00 Litro"}/>
               <Modal foto={queijin} nome={"Queijo Minas"} preco={"R$22,00"}/>
               <Modal foto={porco} nome={"Leitoa"} preco={"R$250,00"}/>
@@ -99,7 +99,7 @@ function Home() {
             <div className="rodape">
             <footer className="inform">
               <Info foto={delivery} nome={"Entragas apenas aos domingos pela manhâ no Guará I e II"}/>
-              <Info foto={contato} nome={"deroça@gmai.com"}/>
+              <Info foto={contato} nome={"deroça@gmail.com"}/>
               <Info foto={instagram} nome={"@de.roca"}/>
             </footer>
             </div>
