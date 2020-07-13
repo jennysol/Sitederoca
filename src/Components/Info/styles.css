@@ -1,6 +1,6 @@
 .dados {
     width: 387px;
-    height: 142px;
+    height: 120px;
     bottom: 0px;
     display: flex;
     align-items: center;
@@ -10,9 +10,9 @@
 }
 .dados > span {
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #FFA500;
-    height: 71.61px;
+    height: 70px;
     width: 387px;
     border-radius: 5px;
     align-items: center;
@@ -27,12 +27,14 @@
     height: 40px;
 }
 
+/* Responsividade */
 @media screen and (max-device-width: 450px) and (orientation: portrait){
     .dados > span {
         font-size: 15px;
     }
     .dados {
-        width: 100%;
-        height: 120px;
+        width: 350px;
+        height: 150px;
+        flex-direction: column;
     }
 }
