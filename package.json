@@ -1,5 +1,6 @@
 {
   "name": "projeto",
+  "homepage": "http://deroça.com.br",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
