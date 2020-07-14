@@ -12,7 +12,7 @@
   left: 440px;
   top: 120px;
 }
-.botão  {
+.botao  {
   border: 0px;
   background: transparent;
   font-family: Roboto;
@@ -241,8 +241,9 @@
 
 @media (max-width: 414px) { /*Celular*/
   .HomePage {
-    width: 100%;
-    height: 5000px;
+    width: 100vw;
+    height: 100%;
+    overflow-x: unset;
   }
   .logo {
     align-items: center;
@@ -263,6 +264,9 @@
     left: 10px;
     top: 250px
   }
+  .botao {
+    font-size: 15px;
+  }
   .titulo {
     width: 414px;
     left: 0px;
@@ -276,7 +280,7 @@
     height: 5px;
   }
   .tituloS{
-    right: 90px;
+    right: 20%;
     width: 250px;
     top: 830px;
   }
@@ -288,7 +292,7 @@
     width: 350px;
   }
   .triangulo {
-    left: 242px;
+    left: 250px;
     width: 170px;
     top: -150px;
   }
@@ -302,16 +306,17 @@
   }
   .triangulo4 {
     width: 150px;
+    right: -60px;
   }
   .carousel {
-    width: 416px;
+    width: 400px;
     height: 476px;
     top: 400px
   }
   .titulo2 {
     width: 350px;
-    right: 30px;
-    top: 1120px
+    top: 1120px;
+    margin-left: 8%;
   }
   .titulo2 > span {
     font-size: 20px;
@@ -320,16 +325,16 @@
     font-size: 15px;
   }
   .cards {
-    width: 150px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    right: 145px;
     top: 1300px;
+    margin-left: 10%;
   }
   .titulo3 {
-    right: 30px;
     width: 350px;
     top: 4140px;
+    margin-left: 9%;
   }
   .titulo3 > span {
     font-size: 20px;
@@ -340,9 +345,9 @@
     top: 4300px;
   }
   .rodape {
-    width: 414px;
+    width: 100%;
     position: absolute;
-    top:4700px;
+    top: 4700px;
   }
   .inform {
     width: 414px;

@@ -38,9 +38,9 @@ function Home() {
       <div className="homePage">
 
         <div className="menu">
-          <div className="link"><HashLink smooth to="#sobre"><button className="botão">Sobre nós</button></HashLink><div/></div>
-          <div className="link"><HashLink smooth to="#produtos"><button className="botão">Nossos Produtos</button></HashLink><div/></div>
-          <div className="link"><HashLink smooth to="#contato"><button className="botão">Contato</button></HashLink><div/></div>
+          <div className="link"><HashLink smooth to="#sobre"><button className="botao">Sobre nós</button></HashLink><div/></div>
+          <div className="link"><HashLink smooth to="#produtos"><button className="botao">Nossos Produtos</button></HashLink><div/></div>
+          <div className="link"><HashLink smooth to="#contato"><button className="botao">Contato</button></HashLink><div/></div>
         </div>
 
         <div className="logo">
